@@ -56,7 +56,7 @@ public class TicTacToe implements Game {
         }
         for(int i = 0; i < 3; i++) {
             if(board [0][i] != '-' && board[0][i] == board[1][i] && board[1][i] == board[2][i]) {
-                return true;x
+                return true;
             }
         }
         if(board[0][0] != '-' && board[0][0] == board[1][1] && board[1][1] == board[2][2]) {
